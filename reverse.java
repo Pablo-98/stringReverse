@@ -22,6 +22,18 @@
 
         System.out.println("reverse of a string is: ");
 
+        // declaring an integer variable j and setting it equal to the length of the character array
+
+        int j = ch.length;
+
+        // using a for loop that increments downward
+        // int i is equal to the length of the character array
+        for( int i = j; i>0; i--)
+        {
+            // subtract one from the length of the cahracter array and then the for loop will increment downward from the index
+            System.out.println(ch[i - 1]);
+        }
+
 
 
     }
